@@ -1,0 +1,14 @@
+Feature: Banistmo
+  Verificar pdf
+
+  @test
+  Scenario: pdf prestamo auto
+    Given Ingreo a la pagina https://www.banistmo.com/wps/portal/banistmo/personas
+    Then Clic en productos
+    And clic en prestamos
+    And clic en prestamos de autos
+    And clic en tasas y tarifas
+    And clic en prohibiciones
+
+
+
