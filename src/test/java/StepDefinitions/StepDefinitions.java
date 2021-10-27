@@ -72,7 +72,7 @@ public class StepDefinitions {
     @And("clic en prohibiciones")
     public void clicEnProhibiciones() {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        WebElement aplicarButton = driver.findElement(By.cssSelector("body.toolbar-closed:nth-child(13) div.wpthemeLayoutContainers.wpthemeLayoutContainersHidden:nth-child(2) div.wpthemeInner div.component-control.id-Z7_8252I1C0MO0OF0ABLVQR7TGHV7:nth-child(2) section.ibmPortalControl.wpthemeControl.wpthemeHidden.a11yRegionTarget:nth-child(2) div.wpthemeControlBody.wpthemeOverflowAuto.wpthemeClear div.container-fluid.none:nth-child(2) div.row div.col-xs-12 div.tabs-verticales.container-fluid.tabs-horizontal div.row div.tab-content.responsive.col-sm-9.hidden-xs.hidden-sm div.tab-pane.active:nth-child(4) table.table-responsive:nth-child(2) tr:nth-child(2) td:nth-child(2) span.bt-content a:nth-child(1) > img:nth-child(1)"));
+        WebElement aplicarButton = driver.findElement(By.xpath("(//img[contains(@src,'7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g')])[2]"));
         aplicarButton.click();
     }
 }
